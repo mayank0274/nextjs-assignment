@@ -9,7 +9,7 @@ const AboutSection = () => {
             <div className="absolute -inset-6 sm:-inset-8 md:-inset-10 lg:-inset-12 bg-gradient-to-br from-purple-400/40 via-pink-400/30 to-orange-300/20 rounded-full blur-3xl"></div>
             <div className="relative w-60 h-[380px] sm:w-72 sm:h-[460px] md:w-80 md:h-[520px] lg:w-[420px] lg:h-[680px] rounded-[9999px] overflow-hidden shadow-2xl border border-white/20">
               <img
-                src="/about.png"
+                src={"/about.png"}
                 alt="about image"
                 className="w-full h-full object-cover object-center"
               />

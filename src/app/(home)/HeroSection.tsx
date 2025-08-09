@@ -42,12 +42,12 @@ export default function HeroSection() {
                 MY WORKS
               </button>
               <button className="border border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-black transition-colors">
-                LET'S TALK
+                LET&apos;S TALK
               </button>
             </div>
           </div>
 
-          <div className="w-full overflow-hidden py-6 absolute md:bottom-0 z-10">
+          <div className="w-full overflow-hidden py-6 absolute md:bottom-10 z-10">
             <div className="flex whitespace-nowrap animate-banner gap-10">
               {[...brandImages, ...brandImages].map((src, index) => (
                 <span
